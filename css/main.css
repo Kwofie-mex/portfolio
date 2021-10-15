@@ -97,7 +97,7 @@ nav{
 }
 .active{
 	/*background-color: #9da0e0;*/
-	border-bottom: 2px solid #000EEF;
+	border-bottom: 2px solid #FFF;
 }
 nav a {
 	box-sizing: border-box;
