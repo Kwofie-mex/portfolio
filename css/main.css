@@ -109,8 +109,11 @@ nav a:hover{
 
 /*Styling of main side*/
 main {
+	width: 100%;
 	/*background-color: #72dfd0;*/
 	background-color: rgba(255, 255, 255, 0.8);
+	margin-left: 1%;
+
 
 
 }
@@ -161,8 +164,10 @@ div p{
 
 }
 footer{
+	width: 100%;
 	background-color: rgba(255, 255, 255, 0.5);
 	padding-top: 15px;
+	margin-left: 1%;
 }
 #footer-header{
 	font-size: 1.0em;
@@ -202,9 +207,12 @@ footer{
 
 .twitter a{
 	margin-right: 30px;
+	margin-bottom: 10px;
 }
 .facebook a{
 	margin-right: 30px;
+	margin-bottom: 10px;
+
 }
 .linkedin a{
 	margin-right: 30px;
@@ -254,6 +262,9 @@ footer{
 		height: 120px;
 		
 	}
+	main{
+		margin: 0;
+	}
 	div img{
 		width: 150px;
 		height: 150px;
@@ -267,6 +278,9 @@ footer{
 	}
 	div#section2 p{
 		font-size: 1.5em;
+	}
+	footer{
+		margin: 0;
 	}
 	#footer-header{
 		margin-left: 20%;
